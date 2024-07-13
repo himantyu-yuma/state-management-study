@@ -4,6 +4,10 @@
   "description": "状態管理ライブラリの学習用",
   "main": "index.js",
   "scripts": {
+    "dev": "vite --port 3000",
+    "build": "tsc && vite build",
+    "lint": "biome ci .",
+		"preview": "vite preview",
     "test": "test"
   },
   "author": "himantyu-yuma",
