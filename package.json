@@ -2,7 +2,7 @@
   "name": "state-management-study",
   "version": "0.1.0",
   "description": "状態管理ライブラリの学習用",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite --port 3000",
     "build": "tsc && vite build",
